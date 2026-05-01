@@ -1,0 +1,104 @@
+* { box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#34c0eb;
+ }
+
+ 
+.container{
+background-color: white;
+width: 30%;
+text-align: center;
+margin-top: 30px;
+border-radius: 10px;
+
+}
+ .card-top{
+    width: 100%;
+    height: 50%;
+    
+ }
+
+ .pattern{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+ }
+
+ .mypic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    position: relative;
+    z-index: 1;
+    bottom: 60px;
+ }
+
+ .profile{
+    display: flex;
+    justify-content: center;
+ }
+
+
+ .info h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+ }
+
+ .info span{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-left: 5px;
+ }
+
+ .info p{
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    margin-top: 5px;
+ }
+
+ hr{
+   margin: 30px 0;
+ }
+    
+    
+    
+ 
+
+ .stats{
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     padding-bottom: 20px;
+ }
+
+ .stats h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(229, 29%, 29%);
+ }
+ 
+ .stats p{
+    font-size: 12px;
+    color: hsl(227, 10%, 46%);
+    margin-top: 5px;
+ }
+
+
+ @media (max-width:426px) {
+
+   .container{
+      width: 80%;
+   }
+   
+ }
